@@ -69,3 +69,72 @@
 # print(f"first_name {name[21:]}")
 # print(f"first_name {name[:10]}")
 # print(f"first_name {name[::-1]}")
+
+# -------------  Tuples  --------------
+# use Parentheses
+# names = ("mahesh","manish","ayush")
+# (bro1 , bro2 ,bro3) = names
+# print(f"all brothers name {bro1},{bro2},{bro3}")
+
+# use without Parentheses
+# name1 ,name2 = 5,8
+# print(f"name1 : {name1}, name2 : {name2}")
+
+#Swap in python using tuples - hame third vairable use nhi krna prta hai
+# a , b = 5,10
+# print(f"a : {a} , b : {b}")
+# a,b = b,a
+# print(f"a : {a} , b : {b}")
+  
+#membership testing using tuples
+
+# students = ("kishor", "rakesh","soniya")
+# print(f"Is mahesh in students : {'mahesh' in students}")
+# print("soniya" not in students)
+
+#  List -> array in auther language
+
+# l1 = [2,3,1,6,1]
+# print(f"list : {l1}")
+# sorting
+# l1.sort()
+# print(l1)
+# adding inpartiqular idx
+# l1.insert(2 , 10)
+# print(l1)
+# there are very much functions exist.....
+
+# Operator Overloading
+# first_name = "mahesh"
+# last_name = "ray"
+# full_name = first_name+last_name
+# print(f"fullName : {full_name}")
+
+#  set 
+# l1 = {2,3,5,6}
+# l2 = {3,2,4,2,}
+
+#Union -> part of set(comon values ko nhi lete hai)
+# print(f"union : {l1 | l2}")  
+#intersection -> part of set(dono main jo comon value ko lete hai )
+# print(f"Intersection : {l1 & l2}")
+
+# l3 = set([1,2,3,4,2])
+# print(f"unique : {l3}")
+
+# l4 = {1,3,3,2,4,2}  
+# print(f"unique : {l4}")
+
+# --------   dicsnory -> like a obj in auther language  -----------
+# student = {
+#     "name":"mahesh ray",
+#     "age":20,
+#     "roll_No":105,
+#     "address":"uttrakhand"
+# }
+
+# print(f"dicsnory : {student}")
+# print(f"dicsnory all keys : {student.keys()}")
+# print(f"dicsnory all items : {student.items()}")
+# print(f"dicsnory all values : {student.values()}")
+
