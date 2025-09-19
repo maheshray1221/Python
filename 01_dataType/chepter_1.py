@@ -125,7 +125,7 @@
 # l4 = {1,3,3,2,4,2}  
 # print(f"unique : {l4}")
 
-# --------   dicsnory -> like a obj in auther language  -----------
+# --------   dictionary -> like a obj in auther language  -----------
 # student = {
 #     "name":"mahesh ray",
 #     "age":20,
