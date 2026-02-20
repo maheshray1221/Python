@@ -1,9 +1,9 @@
-from asciimatics.screen import Screen
-from asciimatics.scene import Scene
-from asciimatics.effects import Cycle, Stars
-from asciimatics.renderers import FigletText
+# from asciimatics.screen import Screen
+# from asciimatics.scene import Scene
+# from asciimatics.effects import Cycle, Stars
+# from asciimatics.renderers import FigletText
 
-import pyttsx3
+# import pyttsx3
 
 
 # print("twinkle twinkle Poem")
@@ -187,20 +187,90 @@ import pyttsx3
 
 #2. disply 6 student marks in a sorted order
 
-marks = []
+# marks = []
 
-marks.append(int(input("give 1st student marks")))
-marks.append(int(input("give 2nd student marks")))
-marks.append(int(input("give 3rd student marks")))
-marks.append(int(input("give 4th student marks")))
-marks.append(int(input("give 5th student marks")))
-marks.append(int(input("give 6th student marks")))
-marks.append(int(input("give 7th student marks")))
+# marks.append(int(input("give 1st student marks")))
+# marks.append(int(input("give 2nd student marks")))
+# marks.append(int(input("give 3rd student marks")))
+# marks.append(int(input("give 4th student marks")))
+# marks.append(int(input("give 5th student marks")))
+# marks.append(int(input("give 6th student marks")))
+# marks.append(int(input("give 7th student marks")))
 
-print(marks)
-print("sorted order")
-marks.sort()
-print(marks)
-#3.
-#4.
-#5.
+# print(marks)
+# print("sorted order")
+# marks.sort()
+# print(marks)
+
+
+#--------------->>>>  Dicsnory and sets  <<<<--------------------
+
+# 01. 
+
+# hindi = {
+#     "aam":"mango",
+#     "kela":"banana",
+#     "angoor":"graps"
+# }  
+
+# print(hindi)
+
+# 02. 
+
+# uniq = set()
+# tell = input("Enter eight random numbers")
+# uniq.add(int(tell))
+
+# tell = input("Enter eight random numbers")
+# uniq.add(int(tell))
+
+# tell = input("Enter eight random numbers")
+# uniq.add(int(tell))
+
+# tell = input("Enter eight random numbers")
+# uniq.add(int(tell))
+
+# tell = input("Enter eight random numbers")
+# uniq.add(int(tell))
+
+# tell = input("Enter eight random numbers")
+# uniq.add(int(tell))
+
+# tell = input("Enter eight random numbers")
+# uniq.add(int(tell))
+# tell = input("Enter eight random numbers")
+# uniq.add(int(tell))
+
+
+# print(uniq)
+
+
+# a = set()
+# a.add(20)
+# a.add("20.0")
+# a.add("20")
+
+# print(len(a))
+# print(a)
+
+
+# d = {}
+
+# n = input("give your name ")
+# l = input("give your  fav language")
+
+# d.update({n:l})
+
+# n = input("give your name ")
+# l = input("give your  fav language")
+# d.update({n:l})
+# n = input("give your name ")
+# l = input("give your  fav language")
+# d.update({n:l})
+# n = input("give your name ")
+# l = input("give your  fav language")
+# d.update({n:l})
+
+
+# print(d)
+
